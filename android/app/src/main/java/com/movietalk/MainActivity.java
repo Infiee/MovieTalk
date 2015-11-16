@@ -1,4 +1,4 @@
-package com.movie;
+package com.movietalk;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -30,7 +30,7 @@ public class MainActivity extends Activity implements DefaultHardwareBackBtnHand
                 .setInitialLifecycleState(LifecycleState.RESUMED)
                 .build();
 
-        mReactRootView.startReactApplication(mReactInstanceManager, "movie", null);
+        mReactRootView.startReactApplication(mReactInstanceManager, "MovieTalk", null);
 
         setContentView(mReactRootView);
     }

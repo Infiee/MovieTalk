@@ -12,7 +12,7 @@ var {
   View,
 } = React;
 
-var movie = React.createClass({
+var MovieTalk = React.createClass({
   render: function() {
     return (
       <View style={styles.container}>
@@ -49,4 +49,4 @@ var styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('movie', () => movie);
+AppRegistry.registerComponent('MovieTalk', () => MovieTalk);
